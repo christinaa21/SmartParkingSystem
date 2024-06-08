@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "SmartParkingSystem",
-    "slug": "SmartParkingSystem",
+    "name": "Spasi",
+    "slug": "Spasi",
     "version": "1.0.0",
-    "scheme": "SmartParkingSystem",
+    "scheme": "Spasi",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,26 +13,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.christinaa21.SmartParkingSystem"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.christinaa21.SmartParkingSystem"
+      "package": "com.christinaa21.Spasi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "0c7394bc-51d5-4088-8f12-78b74f7db181"
+        "projectId": "3926dae0-01a3-4fed-ac64-da0400d36406"
       }
-    },
-    "plugins": [
-      "expo-router"
-    ]
+    }
   }
 }
