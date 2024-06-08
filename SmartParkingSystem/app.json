@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SmartParkingSystem",
+    "slug": "SmartParkingSystem",
+    "version": "1.0.0",
+    "scheme": "SmartParkingSystem",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.christinaa21.SmartParkingSystem"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.christinaa21.SmartParkingSystem"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c7394bc-51d5-4088-8f12-78b74f7db181"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
